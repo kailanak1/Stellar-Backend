@@ -4,9 +4,11 @@ Rails.application.routes.draw do
       resources :user
       resources :event
       resources :calendar
+      #double check these:
+      post '/login', to: 'auth#create'
+      get '/profile', to: 'users#profile'
     end
   end
-  # post '/login' to "auth#create"
 
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
