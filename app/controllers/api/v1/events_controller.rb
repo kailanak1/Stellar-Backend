@@ -3,6 +3,7 @@ class Api::V1::EventsController < ApplicationController
 
   def index
     @events = Event.where(user: currentUser.id)
+    #RENDER JSON
   end
 
   def create
