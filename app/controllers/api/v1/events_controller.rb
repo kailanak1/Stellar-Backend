@@ -15,6 +15,40 @@ class Api::V1::EventsController < ApplicationController
     end
   end
 
+  def show 
+    @event = Event.find(params[:id])
+    if @event
+      render json: @event
+    else 
+      render json: { error: 'That event does not exist'}, status: :not_acceptable
+  end
+
+  def edit 
+    @event = Event.find(params[:id])
+    if @event
+      render json: @event 
+    else 
+      render json: { error: 'That event does not exist'}, status: :not_acceptable
+  end
+
+  def update
+    @event = Event.find(params[:id])
+    @event.update(event_params)
+    render json: @event 
+  end
+
+  def delete
+    @event = Event.find(params[:id])
+    if @event 
+      @event.destroy 
+      render json: {message: "Event successfully deleted"}
+    else 
+      render json: {message: 'Could not destory event'}, status: :not_acceptable
+  end
+  
+
+
+
   private
 
   def event_params
