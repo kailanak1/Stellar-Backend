@@ -5,6 +5,7 @@ Rails.application.routes.draw do
       resources :events
       resources :calendars
       resources :constellations
+      resources :sky_events 
       #double check these:
       post '/login', to: 'auth#create'
       get '/profile', to: 'users#profile'
