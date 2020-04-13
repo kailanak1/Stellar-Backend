@@ -1,4 +1,8 @@
 class EventSerializer < ActiveModel::Serializer
-  # belongs_to :calendar
-  attributes :date, :title, :details, :time
+  attributes :id, :date, :title, :details, :time
+
+  def calendar
+    ActiveModel::SerializableResource.new(self.object.calendar,  each_serializer: CalendarSerializer)
+  end
+
 end
