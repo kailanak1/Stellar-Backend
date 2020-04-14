@@ -6,7 +6,6 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-
 constellations=[
   {
     "Name": "Andromeda",
@@ -16,7 +15,7 @@ constellations=[
     "Genitive": "Andromedae",
     "Area": 722.278,
     "S": 3,
-    "Month": 10.04,
+    "Date": 10.04,
     "V": "V"
   },
   {
@@ -27,7 +26,7 @@ constellations=[
     "Genitive": "Antliae",
     "Area": 238.901,
     "S": "Date",
-    "Month": 2.25,
+    "Date": 2.25,
     "V": "P"
   },
   {
@@ -38,7 +37,7 @@ constellations=[
     "Genitive": "Apodis",
     "Area": 206.327,
     "S": "Date",
-    "Month": 5.25,
+    "Date": 5.25,
     "V": "N"
   },
   {
@@ -49,7 +48,7 @@ constellations=[
     "Genitive": "Aquarii",
     "Area": 979.854,
     "S": "Date",
-    "Month": 8.27,
+    "Date": 8.27,
     "V": "V"
   },
   {
@@ -60,7 +59,7 @@ constellations=[
     "Genitive": "Aquilae",
     "Area": 652.473,
     "S": 1,
-    "Month": 7.18,
+    "Date": 7.18,
     "V": "V"
   },
   {
@@ -71,7 +70,7 @@ constellations=[
     "Genitive": "Arae",
     "Area": 237.057,
     "S": "Date",
-    "Month": 6.13,
+    "Date": 6.13,
     "V": "N"
   },
   {
@@ -82,7 +81,7 @@ constellations=[
     "Genitive": "Arietis",
     "Area": 441.395,
     "S": 1,
-    "Month": 11.01,
+    "Date": 11.01,
     "V": "V"
   },
   {
@@ -93,7 +92,7 @@ constellations=[
     "Genitive": "Aurigae",
     "Area": 657.438,
     "S": 2,
-    "Month": 12.23,
+    "Date": 12.23,
     "V": "V"
   },
   {
@@ -104,7 +103,7 @@ constellations=[
     "Genitive": "Bootis",
     "Area": 906.831,
     "S": 2,
-    "Month": 5.03,
+    "Date": 5.03,
     "V": "V"
   },
   {
@@ -115,7 +114,7 @@ constellations=[
     "Genitive": "Caeli",
     "Area": 124.865,
     "S": "Date",
-    "Month": 12.02,
+    "Date": 12.02,
     "V": "P"
   },
   {
@@ -126,7 +125,7 @@ constellations=[
     "Genitive": "Camelopardalis",
     "Area": 756.828,
     "S": "Date",
-    "Month": 2.03,
+    "Date": 2.03,
     "V": "V"
   },
   {
@@ -137,7 +136,7 @@ constellations=[
     "Genitive": "Cancri",
     "Area": 505.872,
     "S": "Date",
-    "Month": 1.31,
+    "Date": 1.31,
     "V": "V"
   },
   {
@@ -148,7 +147,7 @@ constellations=[
     "Genitive": "Canum Venaticorum",
     "Area": 465.194,
     "S": "Date",
-    "Month": 4.09,
+    "Date": 4.09,
     "V": "V"
   },
   {
@@ -159,7 +158,7 @@ constellations=[
     "Genitive": "Canis Majoris",
     "Area": 380.118,
     "S": 5,
-    "Month": 1.03,
+    "Date": 1.03,
     "V": "V"
   },
   {
@@ -170,7 +169,7 @@ constellations=[
     "Genitive": "Canis Minoris",
     "Area": 183.367,
     "S": 1,
-    "Month": 1.16,
+    "Date": 1.16,
     "V": "V"
   },
   {
@@ -181,7 +180,7 @@ constellations=[
     "Genitive": "Capricorni",
     "Area": 413.947,
     "S": "Date",
-    "Month": 8.08,
+    "Date": 8.08,
     "V": "V"
   },
   {
@@ -192,7 +191,7 @@ constellations=[
     "Genitive": "Carinae",
     "Area": 494.184,
     "S": 4,
-    "Month": 2.01,
+    "Date": 2.01,
     "V": "N"
   },
   {
@@ -203,7 +202,7 @@ constellations=[
     "Genitive": "Cassiopeiae",
     "Area": 598.407,
     "S": 3,
-    "Month": 10.12,
+    "Date": 10.12,
     "V": "V"
   },
   {
@@ -214,7 +213,7 @@ constellations=[
     "Genitive": "Centauri",
     "Area": 1060.422,
     "S": 9,
-    "Month": 4.08,
+    "Date": 4.08,
     "V": "P"
   },
   {
@@ -225,7 +224,7 @@ constellations=[
     "Genitive": "Cephei",
     "Area": 587.787,
     "S": 1,
-    "Month": 10.3,
+    "Date": 10.3,
     "V": "V"
   },
   {
@@ -236,7 +235,7 @@ constellations=[
     "Genitive": "Ceti",
     "Area": 1231.411,
     "S": 2,
-    "Month": 10.17,
+    "Date": 10.17,
     "V": "V"
   },
   {
@@ -247,7 +246,7 @@ constellations=[
     "Genitive": "Chamaeleontis",
     "Area": 131.592,
     "S": "Date",
-    "Month": 3.03,
+    "Date": 3.03,
     "V": "N"
   },
   {
@@ -258,7 +257,7 @@ constellations=[
     "Genitive": "Circini",
     "Area": 93.353,
     "S": "Date",
-    "Month": 5.01,
+    "Date": 5.01,
     "V": "N"
   },
   {
@@ -269,7 +268,7 @@ constellations=[
     "Genitive": "Columbae",
     "Area": 270.184,
     "S": "Date",
-    "Month": 12.2,
+    "Date": 12.2,
     "V": "P"
   },
   {
@@ -280,7 +279,7 @@ constellations=[
     "Genitive": "Comae Berenices",
     "Area": 386.475,
     "S": "Date",
-    "Month": 4.04,
+    "Date": 4.04,
     "V": "V"
   },
   {
@@ -291,7 +290,7 @@ constellations=[
     "Genitive": "Coronae Australis",
     "Area": 127.696,
     "S": "Date",
-    "Month": 7.02,
+    "Date": 7.02,
     "V": "P"
   },
   {
@@ -302,7 +301,7 @@ constellations=[
     "Genitive": "Coronae Borealis",
     "Area": 178.71,
     "S": 1,
-    "Month": 5.2,
+    "Date": 5.2,
     "V": "V"
   },
   {
@@ -313,7 +312,7 @@ constellations=[
     "Genitive": "Corvi",
     "Area": 183.801,
     "S": "Date",
-    "Month": 3.3,
+    "Date": 3.3,
     "V": "V"
   },
   {
@@ -324,7 +323,7 @@ constellations=[
     "Genitive": "Crateris",
     "Area": 282.398,
     "S": "Date",
-    "Month": 3.14,
+    "Date": 3.14,
     "V": "V"
   },
   {
@@ -335,7 +334,7 @@ constellations=[
     "Genitive": "Crucis",
     "Area": 68.447,
     "S": 3,
-    "Month": 3.3,
+    "Date": 3.3,
     "V": "N"
   },
   {
@@ -346,7 +345,7 @@ constellations=[
     "Genitive": "Cygni",
     "Area": 803.983,
     "S": 3,
-    "Month": 8.01,
+    "Date": 8.01,
     "V": "V"
   },
   {
@@ -357,7 +356,7 @@ constellations=[
     "Genitive": "Delphini",
     "Area": 188.549,
     "S": "Date",
-    "Month": 8.02,
+    "Date": 8.02,
     "V": "V"
   },
   {
@@ -368,7 +367,7 @@ constellations=[
     "Genitive": "Doradus",
     "Area": 179.173,
     "S": "Date",
-    "Month": 12.1,
+    "Date": 12.1,
     "V": "N"
   },
   {
@@ -379,7 +378,7 @@ constellations=[
     "Genitive": "Draconis",
     "Area": 1082.952,
     "S": 1,
-    "Month": 5.1,
+    "Date": 5.1,
     "V": "V"
   },
   {
@@ -390,7 +389,7 @@ constellations=[
     "Genitive": "Equulei",
     "Area": 71.641,
     "S": "Date",
-    "Month": 8.1,
+    "Date": 8.1,
     "V": "V"
   },
   {
@@ -401,7 +400,7 @@ constellations=[
     "Genitive": "Eridani",
     "Area": 1137.919,
     "S": 1,
-    "Month": 11.11,
+    "Date": 11.11,
     "V": "P"
   },
   {
@@ -412,7 +411,7 @@ constellations=[
     "Genitive": "Fornacis",
     "Area": 397.502,
     "S": "Date",
-    "Month": 11.03,
+    "Date": 11.03,
     "V": "P"
   },
   {
@@ -423,7 +422,7 @@ constellations=[
     "Genitive": "Geminorum",
     "Area": 513.761,
     "S": 3,
-    "Month": 1.07,
+    "Date": 1.07,
     "V": "V"
   },
   {
@@ -434,7 +433,7 @@ constellations=[
     "Genitive": "Gruis",
     "Area": 365.513,
     "S": 2,
-    "Month": 8.29,
+    "Date": 8.29,
     "V": "P"
   },
   {
@@ -445,7 +444,7 @@ constellations=[
     "Genitive": "Herculis",
     "Area": 1225.148,
     "S": "Date",
-    "Month": 6.13,
+    "Date": 6.13,
     "V": "V"
   },
   {
@@ -456,7 +455,7 @@ constellations=[
     "Genitive": "Horologii",
     "Area": 248.885,
     "S": "Date",
-    "Month": 11.1,
+    "Date": 11.1,
     "V": "N"
   },
   {
@@ -467,7 +466,7 @@ constellations=[
     "Genitive": "Hydrae",
     "Area": 1302.844,
     "S": 1,
-    "Month": 3.17,
+    "Date": 3.17,
     "V": "V"
   },
   {
@@ -478,7 +477,7 @@ constellations=[
     "Genitive": "Hydri",
     "Area": 243.035,
     "S": "Date",
-    "Month": 10.27,
+    "Date": 10.27,
     "V": "N"
   },
   {
@@ -489,7 +488,7 @@ constellations=[
     "Genitive": "Indi",
     "Area": 294.006,
     "S": "Date",
-    "Month": 8.22,
+    "Date": 8.22,
     "V": "N"
   },
   {
@@ -500,7 +499,7 @@ constellations=[
     "Genitive": "Lacertae",
     "Area": 200.688,
     "S": "Date",
-    "Month": 8.29,
+    "Date": 8.29,
     "V": "V"
   },
   {
@@ -511,7 +510,7 @@ constellations=[
     "Genitive": "Leonis",
     "Area": 946.964,
     "S": 4,
-    "Month": 3.03,
+    "Date": 3.03,
     "V": "V"
   },
   {
@@ -522,7 +521,7 @@ constellations=[
     "Genitive": "Leonis Minoris",
     "Area": 231.956,
     "S": "Date",
-    "Month": 2.24,
+    "Date": 2.24,
     "V": "V"
   },
   {
@@ -533,7 +532,7 @@ constellations=[
     "Genitive": "Leporis",
     "Area": 290.291,
     "S": 1,
-    "Month": 12.15,
+    "Date": 12.15,
     "V": "V"
   },
   {
@@ -544,7 +543,7 @@ constellations=[
     "Genitive": "Librae",
     "Area": 538.052,
     "S": "Date",
-    "Month": 5.11,
+    "Date": 5.11,
     "V": "V"
   },
   {
@@ -555,7 +554,7 @@ constellations=[
     "Genitive": "Lupi",
     "Area": 333.683,
     "S": 1,
-    "Month": 5.11,
+    "Date": 5.11,
     "V": "P"
   },
   {
@@ -566,7 +565,7 @@ constellations=[
     "Genitive": "Lyncis",
     "Area": 545.386,
     "S": "Date",
-    "Month": 1.21,
+    "Date": 1.21,
     "V": "V"
   },
   {
@@ -577,7 +576,7 @@ constellations=[
     "Genitive": "Lyrae",
     "Area": 286.476,
     "S": 1,
-    "Month": 7.05,
+    "Date": 7.05,
     "V": "V"
   },
   {
@@ -588,7 +587,7 @@ constellations=[
     "Genitive": "Mensae",
     "Area": 153.484,
     "S": "Date",
-    "Month": 12.13,
+    "Date": 12.13,
     "V": "N"
   },
   {
@@ -599,7 +598,7 @@ constellations=[
     "Genitive": "Microscopii",
     "Area": 209.513,
     "S": "Date",
-    "Month": 8.06,
+    "Date": 8.06,
     "V": "P"
   },
   {
@@ -610,7 +609,7 @@ constellations=[
     "Genitive": "Monocerotis",
     "Area": 481.569,
     "S": "Date",
-    "Month": 1.07,
+    "Date": 1.07,
     "V": "V"
   },
   {
@@ -621,7 +620,7 @@ constellations=[
     "Genitive": "Muscae",
     "Area": 138.355,
     "S": "Date",
-    "Month": 4.01,
+    "Date": 4.01,
     "V": "N"
   },
   {
@@ -632,7 +631,7 @@ constellations=[
     "Genitive": "Normae",
     "Area": 165.29,
     "S": "Date",
-    "Month": 5.21,
+    "Date": 5.21,
     "V": "N"
   },
   {
@@ -643,7 +642,7 @@ constellations=[
     "Genitive": "Octantis",
     "Area": 291.045,
     "S": "Date",
-    "Month": 9.06,
+    "Date": 9.06,
     "V": "N"
   },
   {
@@ -654,7 +653,7 @@ constellations=[
     "Genitive": "Ophiuchi",
     "Area": 948.34,
     "S": 3,
-    "Month": 6.13,
+    "Date": 6.13,
     "V": "V"
   },
   {
@@ -665,7 +664,7 @@ constellations=[
     "Genitive": "Orionis",
     "Area": 594.12,
     "S": 7,
-    "Month": 12.15,
+    "Date": 12.15,
     "V": "V"
   },
   {
@@ -676,7 +675,7 @@ constellations=[
     "Genitive": "Pavonis",
     "Area": 377.666,
     "S": 1,
-    "Month": 7.17,
+    "Date": 7.17,
     "V": "N"
   },
   {
@@ -687,7 +686,7 @@ constellations=[
     "Genitive": "Pegasi",
     "Area": 1120.794,
     "S": 3,
-    "Month": 9.02,
+    "Date": 9.02,
     "V": "V"
   },
   {
@@ -698,7 +697,7 @@ constellations=[
     "Genitive": "Persei",
     "Area": 614.997,
     "S": 2,
-    "Month": 11.09,
+    "Date": 11.09,
     "V": "V"
   },
   {
@@ -709,7 +708,7 @@ constellations=[
     "Genitive": "Phoenicis",
     "Area": 469.319,
     "S": 1,
-    "Month": 10.06,
+    "Date": 10.06,
     "V": "N"
   },
   {
@@ -720,7 +719,7 @@ constellations=[
     "Genitive": "Pictoris",
     "Area": 246.739,
     "S": "Date",
-    "Month": 12.17,
+    "Date": 12.17,
     "V": "N"
   },
   {
@@ -731,7 +730,7 @@ constellations=[
     "Genitive": "Piscium",
     "Area": 889.417,
     "S": "Date",
-    "Month": 9.29,
+    "Date": 9.29,
     "V": "V"
   },
   {
@@ -742,7 +741,7 @@ constellations=[
     "Genitive": "Piscis Austrini",
     "Area": 245.375,
     "S": 1,
-    "Month": 8.26,
+    "Date": 8.26,
     "V": "V"
   },
   {
@@ -753,7 +752,7 @@ constellations=[
     "Genitive": "Puppis",
     "Area": 673.434,
     "S": 1,
-    "Month": 1.1,
+    "Date": 1.1,
     "V": "P"
   },
   {
@@ -764,7 +763,7 @@ constellations=[
     "Genitive": "Pyxidis",
     "Area": 220.833,
     "S": "Date",
-    "Month": 2.05,
+    "Date": 2.05,
     "V": "V"
   },
   {
@@ -775,7 +774,7 @@ constellations=[
     "Genitive": "Reticuli",
     "Area": 113.936,
     "S": "Date",
-    "Month": 11.2,
+    "Date": 11.2,
     "V": "N"
   },
   {
@@ -786,7 +785,7 @@ constellations=[
     "Genitive": "Sagittae",
     "Area": 79.932,
     "S": "Date",
-    "Month": 7.17,
+    "Date": 7.17,
     "V": "V"
   },
   {
@@ -797,7 +796,7 @@ constellations=[
     "Genitive": "Sagittarii",
     "Area": 867.432,
     "S": 2,
-    "Month": 7.09,
+    "Date": 7.09,
     "V": "P"
   },
   {
@@ -808,7 +807,7 @@ constellations=[
     "Genitive": "Scorpii",
     "Area": 496.783,
     "S": 7,
-    "Month": 6.05,
+    "Date": 6.05,
     "V": "P"
   },
   {
@@ -819,7 +818,7 @@ constellations=[
     "Genitive": "Sculptoris",
     "Area": 474.764,
     "S": "Date",
-    "Month": 9.28,
+    "Date": 9.28,
     "V": "P"
   },
   {
@@ -830,7 +829,7 @@ constellations=[
     "Genitive": "Scuti",
     "Area": 109.114,
     "S": "Date",
-    "Month": 7.02,
+    "Date": 7.02,
     "V": "V"
   },
   {
@@ -841,7 +840,7 @@ constellations=[
     "Genitive": "Serpentis",
     "Area": 428.484,
     "S": "Date",
-    "Month": 5.19,
+    "Date": 5.19,
     "V": "V"
   },
   {
@@ -852,7 +851,7 @@ constellations=[
     "Genitive": "Serpentis",
     "Area": 208.444,
     "S": "Date",
-    "Month": 6.24,
+    "Date": 6.24,
     "V": "V"
   },
   {
@@ -863,7 +862,7 @@ constellations=[
     "Genitive": "Sextantis",
     "Area": 313.515,
     "S": "Date",
-    "Month": 2.25,
+    "Date": 2.25,
     "V": "V"
   },
   {
@@ -874,7 +873,7 @@ constellations=[
     "Genitive": "Tauri",
     "Area": 797.249,
     "S": 2,
-    "Month": 12.02,
+    "Date": 12.02,
     "V": "V"
   },
   {
@@ -885,7 +884,7 @@ constellations=[
     "Genitive": "Telescopii",
     "Area": 251.512,
     "S": "Date",
-    "Month": 7.12,
+    "Date": 7.12,
     "V": "N"
   },
   {
@@ -896,7 +895,7 @@ constellations=[
     "Genitive": "Trianguli",
     "Area": 131.847,
     "S": "Date",
-    "Month": 10.25,
+    "Date": 10.25,
     "V": "V"
   },
   {
@@ -907,7 +906,7 @@ constellations=[
     "Genitive": "Trainguli Australis",
     "Area": 109.978,
     "S": 1,
-    "Month": 5.24,
+    "Date": 5.24,
     "V": "N"
   },
   {
@@ -918,7 +917,7 @@ constellations=[
     "Genitive": "Tucanae",
     "Area": 294.557,
     "S": "Date",
-    "Month": 9.18,
+    "Date": 9.18,
     "V": "N"
   },
   {
@@ -929,7 +928,7 @@ constellations=[
     "Genitive": "Ursae Majoris",
     "Area": 1279.66,
     "S": 6,
-    "Month": 3.12,
+    "Date": 3.12,
     "V": "V"
   },
   {
@@ -940,7 +939,7 @@ constellations=[
     "Genitive": "Ursae Minoris",
     "Area": 255.864,
     "S": 2,
-    "Month": 5.08,
+    "Date": 5.08,
     "V": "V"
   },
   {
@@ -951,7 +950,7 @@ constellations=[
     "Genitive": "Velorum",
     "Area": 499.649,
     "S": 4,
-    "Month": 2.14,
+    "Date": 2.14,
     "V": "P"
   },
   {
@@ -962,7 +961,7 @@ constellations=[
     "Genitive": "Virginis",
     "Area": 1294.428,
     "S": 1,
-    "Month": 4.13,
+    "Date": 4.13,
     "V": "V"
   },
   {
@@ -973,7 +972,7 @@ constellations=[
     "Genitive": "Volantis",
     "Area": 141.354,
     "S": "Date",
-    "Month": 1.18,
+    "Date": 1.18,
     "V": "N"
   },
   {
@@ -984,7 +983,7 @@ constellations=[
     "Genitive": "Vulpeculae",
     "Area": 268.165,
     "S": "Date",
-    "Month": 7.26,
+    "Date": 7.26,
     "V": "V"
   }
 ]
@@ -999,42 +998,42 @@ sky_events = [
 
   {
     "Month": "April",
-    "Month": 14,
+    "Date": 14,
     "Day": "Tu",
     "LocalTime": "16:04",
     "Event": "Moon-Jupiter: 2.1° N"
   },
   {
     "Month": "April",
-    "Month": 15,
+    "Date": 15,
     "Day": "We",
     "LocalTime": "2:26",
     "Event": "Moon-Saturn: 2.6° N"
   },
   {
     "Month": "April",
-    "Month": 15,
+    "Date": 15,
     "Day": "We",
     "LocalTime": "21:33",
     "Event": "Moon-Mars: 2.2° N"
   },
   {
     "Month": "April",
-    "Month": 21,
+    "Date": 21,
     "Day": "Tu",
     "LocalTime": "23:07",
     "Event": "Lyrid Shower: ZHR = 20"
   },
   {
     "Month": "April",
-    "Month": 22,
+    "Date": 22,
     "Day": "We",
     "LocalTime": "19:26",
     "Event": "New Moon"
   },
   {
     "Month": "April",
-    "Month": 26,
+    "Date": 26,
     "Day": "Su",
     "LocalTime": "3:19",
     "Event": "Uranus Conjunction"
