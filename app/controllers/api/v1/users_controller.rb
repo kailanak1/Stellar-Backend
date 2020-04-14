@@ -2,11 +2,12 @@ class Api::V1::UsersController < ApplicationController
   skip_before_action :authorized, only: [:create]
 
     def profile
-      render json {user: UserSerializer.new(current_user)}, status: :accepted
+      render json: { user: UserSerializer.new(current_user) }, status: :accepted
     end
   
     def create
       @user = User.create(user_params)
+      raise params.inspect
       if @user.valid?
           #use encode_token method to do JWT.encode (AppController)
           @token = encode_token(user_id: @user.id)
