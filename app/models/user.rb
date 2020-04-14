@@ -6,4 +6,6 @@ class User < ApplicationRecord
   has_one :calendar
   accepts_nested_attributes_for :calendar
 
+
+
 end

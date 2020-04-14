@@ -1,5 +1,5 @@
 class CalendarSerializer < ActiveModel::Serializer
-    attributes :id
+    attributes :id, :user_id
 
     def event 
         ActiveModel::SerializableResource.new(self.object.events,  each_serializer: EventSerializer)
