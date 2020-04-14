@@ -988,7 +988,6 @@ constellations=[
   }
 ]
 
-
 constellations.each do |star|
   Constellation.create(star)
 end 
