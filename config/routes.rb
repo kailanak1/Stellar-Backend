@@ -9,6 +9,7 @@ Rails.application.routes.draw do
       #double check these:
       post '/login', to: 'auth#create'
       get '/profile', to: 'users#profile'
+      post '/signup', to: 'users#create'
     end
   end
 
