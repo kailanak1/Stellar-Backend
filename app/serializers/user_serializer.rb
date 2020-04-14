@@ -1,4 +1,8 @@
 class UserSerializer < ActiveModel::Serializer
-  has_many :events, through: :calendar
-  attributes :username :password :avatar
+  attributes :id, :username, :password, :avatar
+
+  def calendar
+    ActiveModel::SerializableResource.new(self.object.calendar,  each_serializer: CalendarSerializer)
+  end
+
 end

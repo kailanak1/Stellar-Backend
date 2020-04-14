@@ -1,0 +1,2 @@
+class SkyEvent < ApplicationRecord
+end
