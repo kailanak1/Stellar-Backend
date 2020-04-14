@@ -8,6 +8,7 @@ Rails.application.routes.draw do
       resources :sky_events 
       #double check these:
       post '/login', to: 'auth#create'
+      get '/current_user', to: 'auth#show'
       get '/profile', to: 'users#profile'
     end
   end
