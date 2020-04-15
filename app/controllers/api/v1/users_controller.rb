@@ -7,11 +7,12 @@ class Api::V1::UsersController < ApplicationController
     end
   
     def create
-      @user = User.create(user_params)
+      @user = User.new(user_params)
       if @user.valid?
           #use encode_token method to do JWT.encode (AppController)
           Calendar.create(user_id: @user.id)
-          @token = encode_token(user_id: @user.id)
+          @user.save
+          @token = encode_token(@user)
           render json: { user: UserSerializer.new(@user), jwt: @token }
       else
           render json: { error: 'failed to create user' }, status: :not_acceptable
