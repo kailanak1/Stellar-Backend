@@ -3,6 +3,7 @@ class ApplicationController < ActionController::API
 
     def encode_token(user)
         # user is the payload we're passing in
+        puts "encoding"
         JWT.encode( {user_id: user.id}, 'lumosNox', 'HS256')
     end
 

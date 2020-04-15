@@ -2,7 +2,8 @@ class Api::V1::UsersController < ApplicationController
   skip_before_action :authorized, only: [:create]
 
     def profile
-      render json: { user: UserSerializer.new(current_user) }, status: :accepted
+      puts UserSerializer.new(currentUser)
+      render json: {user: UserSerializer.new(currentUser)}
     end
   
     def create
@@ -10,8 +11,9 @@ class Api::V1::UsersController < ApplicationController
       raise params.inspect
       if @user.valid?
           #use encode_token method to do JWT.encode (AppController)
+          Calendar.create(user_id: @user.id)
           @token = encode_token(user_id: @user.id)
-          render json: { user: UserSerializer.new(@user), jwt: @token }, status: :created
+          render json: { user: UserSerializer.new(@user), jwt: @token }
       else
           render json: { error: 'failed to create user' }, status: :not_acceptable
       end
