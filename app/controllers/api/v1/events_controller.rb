@@ -2,15 +2,19 @@ class Api::V1::EventsController < ApplicationController
     before_action :authorized
 
   def index
-    @events = Event.where(user: currentUser.id)
+    @events = Event.all
     render json: @events
   end
 
   def create
-    @event = Event.new(event_params)
+    calendar = User.find_by(id: event_params[:user_id]).calendar
+    full_params = {"title"=> event_params[:title], "date"=> event_params[:date], "details"=> event_params[:details], 'time'=> event_params[:time], "user_id"=> event_params[:user_id], :calendar_id => calendar.id}
+    puts full_params
+    @event = Event.new(full_params)
+    # byebug
     if @event.valid?
-        @event.user = currentUser
-        render json: { event: EventSerializer.new(@event)}, status: :created
+        @event.save
+        render json: { event: EventSerializer.new(@event)}
     else
         render json: { error: 'failed to create event' }, status: :not_acceptable
     end
@@ -22,6 +26,7 @@ class Api::V1::EventsController < ApplicationController
       render json: @event
     else 
       render json: { error: 'That event does not exist'}, status: :not_acceptable
+    end
   end
 
   def edit 
@@ -30,6 +35,7 @@ class Api::V1::EventsController < ApplicationController
       render json: @event 
     else 
       render json: { error: 'That event does not exist'}, status: :not_acceptable
+    end
   end
 
   def update
@@ -45,6 +51,7 @@ class Api::V1::EventsController < ApplicationController
       render json: {message: "Event successfully deleted"}
     else 
       render json: {message: 'Could not destory event'}, status: :not_acceptable
+    end
   end
   
 
@@ -53,7 +60,6 @@ class Api::V1::EventsController < ApplicationController
   private
 
   def event_params
-    params.require(:user).permit(:title, :date, :details, :time)
-    #will calendar and user ids be automatically tied to an event when it's created?
+    params.require(:event).permit(:title, :date, :details, :time, :user_id)
   end
 end
